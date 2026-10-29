@@ -4,6 +4,14 @@ A [Claude Code](https://claude.com/claude-code) mod that draws running subagents
 
 ![agent tree above the prompt](docs/agent-tree.png)
 
+## Under the status line
+
+The same tree also drives the subagent panel of [claude-statusline](https://github.com/Lucasbk38/claude-statusline): one row per agent with model, effort and token count.
+
+![subagent panel under the status line](docs/subagent-panel.png)
+
+## Features
+
 - Shows every live agent, plus finished parents that still have running children.
 - Each row: status icon, name, agent type, model family.
 - Writes the parent links to `~/.claude/statusline/agent-parents.json` once a second (only when they change) so the companion [claude-statusline](https://github.com/Lucasbk38/claude-statusline) subagent panel can draw the same tree.
