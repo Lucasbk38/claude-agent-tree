@@ -1,0 +1,13 @@
+{
+  "name": "claude-agent-tree",
+  "owner": {
+    "name": "Lucasbk38"
+  },
+  "plugins": [
+    {
+      "name": "agent-tree",
+      "source": "./",
+      "description": "Shows running subagents as a tree (parent to children) above the prompt"
+    }
+  ]
+}

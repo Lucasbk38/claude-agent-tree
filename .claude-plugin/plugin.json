@@ -1,0 +1,12 @@
+{
+  "name": "agent-tree",
+  "version": "0.1.0",
+  "description": "Shows running subagents as a tree (parent → children) above the prompt",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Lucasbk38"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/Lucasbk38/claude-agent-tree",
+  "homepage": "https://github.com/Lucasbk38/claude-agent-tree"
+}
